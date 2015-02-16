@@ -1,0 +1,39 @@
+* logary.core Usage
+** Scheduling.fs
+  - Creates a single actor named "scheduler"
+  - ReplyChannel  
+  - Try Request And Reply
+  - Request/ And Reply
+  - makeRPC??? Seems to be tryReqReply but with TimeOut leg.
+
+** Internals.fs
+** Internals_Logger.fs
+** Metric.fs
+** Measure.fs
+** HealthCheck.fs
+** Metrics_Noop.fs
+** Metrics_WinperfCounter.fs
+** Targets.fs
+** Targets_Nimrod.fs
+** Targets_Noop.fs
+** Targets_Core.fs
+** Logging.fs
+** Registry.fs
+** Configuration_LogaryConf.fs
+** Targets_Graphite.fs
+** Targets_Logstash.fs
+** Configuration_Config.fs
+** LogManager.fs
+
+* logary.tests 
+** Fac.fs
+
+* logary.integrationtests
+** Integrations.fs
+
+* logary.services.SQLServer
+** SQLServerIOInfo.fs
+
+* logary.targets.*
+** Any Targets_* 
+   
