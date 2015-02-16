@@ -1,39 +1,38 @@
 * logary.core Usage
-** Scheduling.fs
-  - Creates a single actor named "scheduler"
-  - ReplyChannel  
-  - Try Request And Reply
-  - Request/ And Reply
-  - makeRPC??? Seems to be tryReqReply but with TimeOut leg.
 
-** Internals.fs
-** Internals_Logger.fs
-** Metric.fs
-** Measure.fs
-** HealthCheck.fs
-** Metrics_Noop.fs
-** Metrics_WinperfCounter.fs
-** Targets.fs
-** Targets_Nimrod.fs
-** Targets_Noop.fs
-** Targets_Core.fs
-** Logging.fs
-** Registry.fs
-** Configuration_LogaryConf.fs
-** Targets_Graphite.fs
-** Targets_Logstash.fs
-** Configuration_Config.fs
-** LogManager.fs
+** TODO Scheduling.fs
+  - Creates a single actor named "scheduler"
+  - Uses ReplyChannel :: for request and reply semantics. Also has
+       RPC which specifically wraps timeout
+
+** TODO Internals_Logger.fs
+** TODO Internals.fs
+** TODO Metric.fs
+** TODO Measure.fs
+** TODO HealthCheck.fs
+** TODO Metrics_Noop.fs
+** TODO Metrics_WinperfCounter.fs
+** TODO Targets.fs
+** TODO Targets_Nimrod.fs
+** TODO Targets_Noop.fs
+** TODO Targets_Core.fs
+** TODO Logging.fs
+** TODO Registry.fs
+** TODO Configuration_LogaryConf.fs
+** TODO Targets_Graphite.fs
+** TODO Targets_Logstash.fs
+** TODO Configuration_Config.fs
+** TODO LogManager.fs
 
 * logary.tests 
-** Fac.fs
+** TODO Fac.fs
 
 * logary.integrationtests
-** Integrations.fs
+** TODO Integrations.fs
 
 * logary.services.SQLServer
-** SQLServerIOInfo.fs
+** TODO SQLServerIOInfo.fs
 
 * logary.targets.*
-** Any Targets_* 
+** TODO Any Targets_* 
    
